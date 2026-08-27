@@ -1,6 +1,6 @@
 # Batch Silence Trimmer
 
-A cross-platform tool that removes silences from a batch of WAV files. Detects silences in waveforms, trims to a user-defined threshold, and exports trim labels with timestamps to .CSV. Built for audio engineers, podcasters, and audiobook producers.
+A cross-platform tool that removes silences from a batch of WAV files. Detects silences in waveforms, trims to a user-defined threshold, and (coming soon) exports trim labels with timestamps to .CSV. Built for audio engineers, podcasters, and audiobook producers.
 
 Architecturally, Batch Silence Trimmer is built on FFmpeg and numpy (for audio analysis/editing) and employs Tkinter for the basic GUI. 
 
@@ -36,7 +36,7 @@ Music production: clean up exported stems or live takes before mixing or sharing
 Clone this repository and install dependencies:
 
 ```bash
-git clone https://github.com/CLafitte/batch-silence-trimmer.git
+git clone https://github.com/CLafitte/batch_silence_trimmer.git
 cd batch-silence-trimmer
 pip install -r requirements.txt
 ```
@@ -77,7 +77,7 @@ The GUI will open, allowing you to select input/output folders and configure sil
 
   A waveform preview should generate for the first file selected in the batch
 
-4. Click Start Batch Trim & Shrink to process all WAV files in the input folder.
+4. Click Start to process all WAV files in the input folder.
 
   Processed files will appear in the selected output folder.
 
