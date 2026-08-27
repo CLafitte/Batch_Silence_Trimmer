@@ -36,7 +36,7 @@ Music production: clean up exported stems or live takes before mixing or sharing
 Clone this repository and install dependencies:
 
 ```bash
-git clone https://github.com/yourusername/batch-silence-trimmer.git
+git clone https://github.com/CLafitte/batch-silence-trimmer.git
 cd batch-silence-trimmer
 pip install -r requirements.txt
 ```
