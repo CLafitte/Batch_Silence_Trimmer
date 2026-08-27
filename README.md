@@ -37,7 +37,7 @@ Clone this repository and install dependencies:
 
 ```bash
 git clone https://github.com/CLafitte/batch_silence_trimmer.git
-cd batch-silence-trimmer
+cd batch_silence_trimmer
 pip install -r requirements.txt
 ```
 
